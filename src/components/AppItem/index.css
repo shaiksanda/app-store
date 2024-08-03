@@ -1,0 +1,45 @@
+/* Write your CSS here */
+
+.app {
+  width: 100px;
+  height: 130px;
+  box-sizing: content-box;
+  background-color: white;
+  margin: 5px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+  flex-shrink: 0;
+}
+@media (min-width: 350px) {
+  .app {
+    width: 110px;
+  }
+}
+
+@media (min-width: 576px) {
+  .app {
+    width: 130px;
+  }
+}
+
+@media (min-width: 768px) {
+  .app {
+    width: 200px;
+    height: 135px;
+  }
+}
+@media (min-width: 992px) {
+  .app {
+    width: 160px;
+  }
+}
+@media (min-width: 1200px) {
+  .app {
+    width: 220px;
+  }
+}
+
+.app-icon {
+  width: 100px;
+}
